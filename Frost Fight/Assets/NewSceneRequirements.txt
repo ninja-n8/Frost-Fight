@@ -1,0 +1,25 @@
+**Created using CharacterControllerTest scene as a template**
+
+1. AudioManager Prefab
+2. UpgradeProgressData Prefab
+3. Main Camera Prefab (Assets/Geno/Prefabs)
+4. Canvas
+	1. HealthBar Prefab
+	2. EnergyBar Prefab
+	3. EnemyBar Prefab *Make a copy for each enemy, or assign each 	enemy to a single invisible enemy bar.*
+	4. ScoreManager
+		1. CrystalText
+		2. EnergyText
+		3. BallText
+		4. GemText
+		5. ScoreText
+		6. ShardText
+	5. UpgradeNotification
+	6. PauseMenu
+	7. UpgradeMenu
+	8. AmmoSelectUI
+5. LevelManager
+	1. SpawnPoint
+	2. DeathZone
+	3. Checkpoint
+6. ChkPntFlag

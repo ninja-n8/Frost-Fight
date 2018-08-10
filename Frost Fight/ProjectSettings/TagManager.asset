@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - SnoP
+  - IceP
+  - RockP
+  - Ice
+  - HealthPickup
+  - Destroy
+  - SmallPlatform
+  - BigPlatform
+  - Bat
+  - Icicle
+  - Trail
+  - Ground
+  - GroP
+  - BoomP
+  - SGun
+  - ReverseP
+  - noHit
+  - Through
+  - Boundary
+  - BoundaryManager
+  - Boulder
+  - FallPillar
+  - Tripper
+  - MovingPlatform
+  - Glass
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Ground
+  - Player
+  - Enemy
+  - LevelManager
+  - Projectiles
+  - Pickups
+  - Hidden
+  - Boundary
+  - FallingPlatform
+  - TornadoPlat
+  - MovingPlatform
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 2312164711
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0

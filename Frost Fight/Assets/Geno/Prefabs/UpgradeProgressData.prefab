@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1164239007139914}
+  m_IsPrefabParent: 1
+--- !u!1 &1164239007139914
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4525971673267866}
+  - component: {fileID: 114782645884634216}
+  m_Layer: 0
+  m_Name: UpgradeProgressData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4525971673267866
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1164239007139914}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 146.89685, y: -0.02226907, z: -0.87452793}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114782645884634216
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1164239007139914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9066f00313a29f47a7ded42727778c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highestShards: 0
+  highestHeartCrystals: 0
+  tempShards: 0
+  highestHealth: 0
+  highestEnergy: 0
+  highestLives: 10
+  iceBall: 1
+  rockBall: 1
+  shotgun: 0
+  explosion: 0
+  grower: 0
+  boomerang: 1
+  healthpickupProj: 0
+  dashUnlocked: 0
+  forcePushUnlocked: 0
+  iceBallUpgrade: 0
+  rockBallUpgrade: 0
+  shotgunUpgrade: 0
+  explosionUpgrade: 0
+  growerUpgrade: 0
+  boomerangUpgrade: 0
+  healthpickupProjUpgrade: 0
+  dashUpgrade: 0
+  forcePushUpgrade: 0
+  upgradeMenu: {fileID: 0}
+  score: {fileID: 0}
+  circleMenu: {fileID: 0}
